@@ -5,37 +5,7 @@ import time
 import argparse
 from datetime import datetime, timedelta
 from clicat import CliCat
-
-# ASCII Art for different pet states
-PET_HAPPY = r"""
-   /\_/\  
-  ( ^.^ ) 
-   > ^ <  
-"""
-
-PET_HUNGRY = r"""
-   /\_/\  
-  ( o.o ) 
-  ( u u ) 
-"""
-
-PET_SLEEPY = r"""
-   /\_/\  
-  ( -.- ) 
-   z z z  
-"""
-
-PET_SICK = r"""
-   /\_/\  
-  ( x.x ) 
-  ( - - ) 
-"""
-
-PET_PLAYING = r"""
-   /\_/\  
-  ( ^o^ ) 
-  ( > < ) 
-"""
+from pet_ascii import PET_HAPPY, PET_HUNGRY, PET_SLEEPY, PET_SICK, PET_PLAYING
 
 def main():
     parser = argparse.ArgumentParser(description='CLI Virtual Pet')
