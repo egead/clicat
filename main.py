@@ -4,7 +4,7 @@ import json
 import time
 import argparse
 from datetime import datetime, timedelta
-from clicat import CliCat
+from clicat_class import CliCat
 from pet_ascii import PET_HAPPY, PET_HUNGRY, PET_SLEEPY, PET_SICK, PET_PLAYING
 
 def main():
